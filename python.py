@@ -187,11 +187,11 @@
 
 
 
-# is_raining=False
-# if not is_raining:
-#     print("you can go outside")     #it is reverse condition
-# else:
-#     print("take an umbrella")    
+is_raining=False
+if not is_raining:
+    print("you can go outside")     #it is reverse condition
+else:
+    print("take an umbrella")    
 
 
 #conditional expression
@@ -207,8 +207,8 @@
 
 
 #truely and fasely conditions:python treats some values as true and some as false when used in condition
-name=(input("enter your name:"))
-if name:
-    print("you have a number")
-else:
-    print("you did not have a name")    
+# name=(input("enter your name:"))
+# if name:
+#     print("you have a name")
+# else:
+#     print("you did not have a name")    

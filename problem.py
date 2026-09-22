@@ -81,16 +81,63 @@
 
 
 
-performance=int(input("enter your performance:"))
-experience=int(input("enter your experience:"))
-if performance>=90 and experience>=5:
-    print("20% Hike")
-elif performance>=90 and experience<=5:
-    print("10% Hike")
-elif performance>=80:
-    print("10% Hike")
-elif performance>=70:
-    print("5% Hike") 
-else:
-    print("No Hike")    
+# performance=int(input("enter your performance:"))
+# experience=int(input("enter your experience:"))
+# if performance>=90 and experience>=5:
+#     print("20% Hike")
+# elif performance>=90 and experience<=5:
+#     print("10% Hike")
+# elif performance>=80:
+#     print("10% Hike")
+# elif performance>=70:
+#     print("5% Hike") 
+# else:
+#     print("No Hike")    
                
+
+# num=int(input("enter a num:"))
+# orginal=num
+# reverse=0
+
+# while num>0:
+#     digit=num%10
+#     reverse=reverse*10+digit
+#     num//=10
+
+# if orginal==reverse:
+#     print("palindrome")
+# else:
+#     print("not a palindrome")    
+
+
+#factorial
+
+#5!=5*4*3*2*1=120
+
+# num=5
+# factorial=1
+
+# while num>0:
+#     factorial *=num
+#     #fact =fact*num
+#     num-=1
+# print(factorial)    
+
+
+#fibonnaci series
+#0 1 1 2 3 5 8 13 21 34 55
+
+# n=10
+# a=0
+# b=1
+# for i in range(n):
+#     print(a,end="")
+#     a,b=b,a,a+b
+    
+
+#finding duplicate numbers in a list
+numbers=[1,2,3,4,5,1,2]
+for i in range(len(numbers)):
+    for i in range(i+1,len(numbers)):
+        if numbers[i]==numbers[i]:
+            print(numbers[i])
